@@ -3,6 +3,10 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import java.awt.GridLayout;
 
 public class Demo extends JFrame {
 
@@ -34,6 +38,10 @@ public class Demo extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
+		contentPane.setLayout(new GridLayout(5, 5, 5, 10));
+		
+		JButton btnNewButton = new JButton("New button");
+		contentPane.add(btnNewButton);
 	}
 
 }
