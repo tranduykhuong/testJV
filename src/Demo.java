@@ -48,6 +48,9 @@ public class Demo extends JFrame {
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
+		JLabel lblNewLabel_1 = new JLabel("New label");
+		contentPane.add(lblNewLabel_1);
+		
 		JButton btnNewButton = new JButton("New button");
 		contentPane.add(btnNewButton);
 	}
