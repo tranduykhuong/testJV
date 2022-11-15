@@ -40,6 +40,9 @@ public class Demo extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new GridLayout(5, 5, 5, 10));
 		
+		JLabel lblNewLabel = new JLabel("New label");
+		contentPane.add(lblNewLabel);
+		
 		JButton btnNewButton = new JButton("New button");
 		contentPane.add(btnNewButton);
 	}
