@@ -11,6 +11,7 @@ import java.awt.GridLayout;
 public class Demo extends JFrame {
 
 	private JPanel contentPane;
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -42,6 +43,10 @@ public class Demo extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		contentPane.add(lblNewLabel);
+		
+		textField = new JTextField();
+		contentPane.add(textField);
+		textField.setColumns(10);
 		
 		JButton btnNewButton = new JButton("New button");
 		contentPane.add(btnNewButton);
